@@ -21,9 +21,9 @@
 title: 0xeb_bp
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-    0xeb_bp security blog
+    a security blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://0xeb-bp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 0xeb_bp
 github_username:  0xeb-bp
 
