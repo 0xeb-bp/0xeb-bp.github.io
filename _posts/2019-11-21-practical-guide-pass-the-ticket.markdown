@@ -22,7 +22,7 @@ To get started we will first need to setup some tools. All have information on h
 
     https://github.com/skelsec/pypykatz
 
-**Kerberos Client**
+**Kerberos Client (optional)**
 
     RPM based: yum install krb5-workstation
     Debian based: apt install krb5-user
@@ -89,7 +89,7 @@ The next step is to convert the ticket from `.kirbi` to `.ccache` so that we can
 
 ![image 7](/assets/images/practical-guide-pass-the-ticket/7.png)
 
-Now that the ticket file is in the correct format, we specify the location of the `.ccache` file by setting the `KRB5CCNAME` environment variable and use `klist` to verify everything looks correct:
+Now that the ticket file is in the correct format, we specify the location of the `.ccache` file by setting the `KRB5CCNAME` environment variable and use `klist` to verify everything looks correct (if optional Kerberos client was installed, klist is just used as a sanity check):
 
     export KRB5CCNAME=/path/to/.ccache
     klist
