@@ -31,6 +31,7 @@ github_username:  0xeb-bp
 theme: minima
 plugins:
   - jekyll-feed
+google_analytics: UA-166254105-1
 
 # Exclude from processing.
 # The following items will not be processed, by default.
